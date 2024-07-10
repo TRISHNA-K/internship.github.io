@@ -5,63 +5,75 @@ body{
     margin:0px;
     color: black;
     font-family: "Roboto", sans-serif;
-    background-color: white;
+    background-color: rgba(254, 254, 254, 1);
 }
 
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
-.fold-1{
-    padding-bottom: 40px;
+.studio-header{
+    position: relative;
+    background: white;
+    display: flex;
     padding-left: 120px;
+    padding-top: 42px;
+    padding-right: 120px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    padding-bottom: 30px;
+    
 }
 .main-header{
     display: flex;
     padding-top: 42px;
     justify-content: space-between;
-    align-items: center;
 }
 .navigation{
     position:absolute;
     display: flex;
     align-items: center;
-    padding-left: 494px;
+    color: black;
+    padding-left: 386px;
 }
 .navigation-item{
     padding-right:58px;
     padding-left:23px;
     font-size: 16px;
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight: 400;
-    letter-spacing: 1%;
-    color:rgba(0, 0, 0, 1);
-
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
-.fold-2{
+.fold-1{
     padding-left: 120px;
     position: relative;
-    padding-top: 20px;
+    padding-top: 55px;
     padding-bottom: 150px;
     display: flex;
 }
 .paragraph{
     color: rgb(86, 86, 86);
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight: 400px;
     font-size: 18px;
     line-height: 25.6px;
     text-align:left;
     width:471px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 .heading{
     font-size:40px;
     color:rgba(0, 0, 0, 1);
     text-align: start;
-    font-family: Averta Demo PE Cutted Demo;
     padding-top: 143px;
-    font-weight: 400px;
     line-height: 50px;
     padding-left: 0px;
-
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 .button{
     background-color: blue;
@@ -73,6 +85,7 @@ body{
     font-size: 20px;
     border-radius: 80px;
     z-index: 6;
+    margin-top: 15px;
 }
 .dot-ornament{
     position: absolute;
@@ -86,19 +99,25 @@ body{
 }
 .image1{
     position: absolute;
-    z-index:6
+    z-index:6;
+    height:512px;
+    width:670px;
 }
 .rectangle-image1{
     position: absolute;
     z-index: 0;
     right: 91px;
     bottom: -96px;
+    height:178px;
+    width:178px;
 }
-.ellipseimage1{
+.ellipse-image1{
     position: absolute;
-    z-index:0;
-    right:42%;
-    top:0;
+    top:51;
+    left:50%;
+    z-index: 5;
+    height:129px;
+    width:129px;
 }
 
 .main-section{
@@ -113,27 +132,29 @@ body{
     margin-right:1em;
     align-items: left;
 }
-.fold-3{
+.fold-2{
     padding-bottom: 40px;
     padding-left: 120px;
     padding-top: 120px;
 }
 .heading-client{
     font-size:40px ;
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight:400px ;
     color: black;
     border: 1px;
     line-height: 49.44px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 .paragraph-client{
     font-size: 18px;
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight:400 ;
     color:#757575;
     line-height:29px ;
     display: flex;
     gap:70px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
    
 }
 
@@ -148,329 +169,177 @@ body{
     max-width: 160px;
     max-height: 50px;
 }
-.fold-4{
-    display: flex;
-    padding-left: 120px;
-}
-.heading-3{
-    flex: 1;
-    position:fixed;
-    
-}
-.section2-images{
-    flex:1;
-}
-.business-content{
-    display: flex;
-    font-size: 40px;
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight: 400px;
-    color:black;
-    line-height:49.44px;
-    z-index: 6;
-    
-}
-.business-paragraph{
-    font-size: 18px;
-    font-family:Averta Demo PE Cutted Demo ;
-    font-weight: 400;
-    color:rgba(86, 86, 86, 1);
-    line-height: 28.8px;
-    width:395px;
-}
 
-.section2-images{
-    padding-top: 225px;
-}
-.heading-3{
-    align-items: center;
-    padding-top: 280px;
-    position: absolute;
-    margin-top: 100px;
-}
 
-.fold-4{
-    display: flex;
-    padding-top: 80px;
-    padding-left:120px;
-}
-.right-grid{
-    display: flex;
-    
-}
-
-.rectangle-image2 {
-    
-    position: absolute;
-    top: 318px;
-    transform: translateX(-50%);
-    z-index: -14;
-    
-}
-.card{
-    background-color: F1F7FF;
-    box-shadow:0px 10px 50px 0px rgba(0, 0, 0, 0.05);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    Width:308px;
-    Height:379px;
-    border:1px;
-    border-radius: 40px;
-    margin-left: 600px;
-    margin-top: 57px;
-    
-
-}
-.icon-container{
-    background-color: rgba(241, 247, 255, 1);
-    width:121px;
-    height:121px;
-    align-items: center;
-    border-radius: 20px;
-    margin-top: 30px;
-    justify-content: center;
-}
-.card-title{
-    font-family: Averta Demo PE Cutted Demo;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 29.66px;
-    padding-top: 37px;
-    width:157px;
-
-}
-.card-description{
-    color: rgba(117, 117, 117, 1);
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22.4px;
-    padding-top: 38px;
-    width:245px;
-}
-.icon{
-    display: block;
-    margin-top:20px;
-    margin-bottom:14px;
-    margin-left:12px;
-}
-.card-content{
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-    
-}
-.app{
-    background-color: F1F7FF;
-    box-shadow:0px 10px 50px 0px rgba(0, 0, 0, 0.05);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    Width:308px;
-    Height:379px;
-    border:1px;
-    border-radius: 40px;
-    margin-left: 600px;
-    margin-top: 30px;
-    
-
-}
-.app-container{
-    background-color: rgb(255, 242, 248);
-    width:121px;
-    height:121px;
-    align-items: center;
-    border-radius: 20px;
-    margin-top: 30px;
-}
-.website-title{
-    font-family: Averta Demo PE Cutted Demo;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 29.66px;
-    padding-top: 68px;
-    width:239px;
-
-}
-.website-description{
-    color: rgba(117, 117, 117, 1);
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22.4px;
-    padding-top: 38px;
-    width:245px;
-}
-.wallet-logo{
-    display: block;
-    margin-top:20px;
-    margin-bottom:14px;
-    margin-left:12px;
-}
-.website-content{
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-    
-}
-.finance{
-    background-color: F1F7FF;
-    box-shadow:0px 10px 50px 0px rgba(0, 0, 0, 0.05);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    Width:308px;
-    Height:379px;
-    border:1px;
-    border-radius: 40px;
-    margin-left: 35px;
-    
-
-}
-.finance-container{
-    background-color: rgb(255, 247, 227);
-    width:121px;
-    height:121px;
-    align-items: center;
-    border-radius: 20px;
-    margin-top: 30px;
-}
-.finance-title{
-    font-family: Averta Demo PE Cutted Demo;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 29.66px;
-    padding-top: 40px;
-    width:199px;
-
-}
-.finance-description{
-    color: rgba(117, 117, 117, 1);
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22.4px;
-    padding-top: 38px;
-    width:245px;
-}
-.finance-logo{
-    display: block;
-    margin-top:20px;
-    margin-bottom:14px;
-    margin-left:12px;
-}
-.finance-content{
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-    
-}
-.project{
-    background-color: F1F7FF;
-    box-shadow:0px 10px 50px 0px rgba(0, 0, 0, 0.05);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    Width:308px;
-    Height:379px;
-    border:1px;
-    border-radius: 40px;
-    margin-left: 35px;
-    margin-top: 30px;
-    
-
-}
-.project-container{
-    background-color: rgba(222, 255, 238, 1);
-    width:121px;
-    height:121px;
-    align-items: center;
-    border-radius: 20px;
-    margin-top: 30px;
-}
-.project-title{
-    font-family: Averta Demo PE Cutted Demo;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 29.66px;
-    padding-top: 37px;
-    width:231px;
-
-}
-.project-description{
-    color: rgba(117, 117, 117, 1);
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22.4px;
-    padding-top: 38px;
-    width:245px;
-}
-
-.project-logo{
-    display: block;
-    margin-top:20px;
-    margin-bottom:14px;
-    margin-left:12px;
-}
-.project-content{
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-    
-}
-.right-div{
-    display: flex;
-    padding-top: 0px;
-}
-.right-section1{
-    flex: 1;
-}
-.right-section2{
-    flex: 1;
-
-}
-.left-section{
+.usp-block {
+    margin-bottom: 50px;
     position: relative;
-    padding-left: 0px;
-    width:396px;
+    isolation: isolate;
 }
 
-.fold-4{
+.usp-block-container {
     display: flex;
+    align-items: center;
+}
+
+.usp-bg-item-squre {
+    height: 70%;
+    width: 70%;
+    background: rgba(244, 249, 255, 1);
+    position: absolute;
+    top: 15%;
+    right: 0;
+    z-index: -1;
+    border-radius: 150px 0px 0px 0px;
+}
+
+
+.usp-text {
+    max-width: 40%;
+    min-width: 40%;
+    position: relative;
+    z-index: 0;
+    
+}
+.usp-heading-square{
+    position: absolute;
+    z-index: -2;
+    background-color: rga(255, 245, 219, 1);
+    border-radius: 0px 0px 100px 0px;
+    top: -66px;
+    left: -47px;
+    width:180px;
+    height:180px;
+    rotate: 180deg;
 
 }
-.header-3{
-flex: 1;
+.usp-header-dot-ornament{
+    position: absolute;
+    width: 405px;
+    height: 154px;
+    z-index: -6;
+    left: -305px;
+    bottom: -31px;
 }
-.right-grid{
-flex:1
+.usp-header-ellipse{
+    position: absolute;
+    width:120px;
+    height:120px;
+    right: 44px;
+    bottom: -39px;
+    z-index:-6;
 }
-.fold-5{
+
+.usp-cards-block {
+    max-width: 60%;
+    min-width: 60%;
+}
+
+.usp-heading {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.usp-paragraph {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: rgba(86, 86, 86, 1);
+}
+
+.usp-cards-block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.usp-cards-left {
+    padding-top: 60px;
+}
+
+.usp-card {
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.05);
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(242, 242, 242, 1);
+}
+
+.usp-card-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    background: rgba(241, 247, 255, 1);
+    margin-bottom: 30px;
+    display: grid;
+    place-content: center;
+}
+
+.usp-card-icon-2 {
+    background: rgba(255, 242, 248, 1);
+}
+.usp-card-icon-3 {
+    background: rgba(255, 247, 227, 1);
+}
+.usp-card-icon-4 {
+    background: rgba(222, 255, 238, 1);
+}
+
+.usp-card-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.usp-card-description {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(117, 117, 117, 1);
+}
+.fold-3{
     position: relative;
     display: flex;
     padding-top: 140px;
     padding-left: 120px;
 }
 .agency-heading{
-    
+    position: relative;
     font-size: 40px;
-    font-family: Averta Demo PE Cutted Demo;
-    line-height: px;
-    font-weight: 400;
+    line-height: 49.44px;
     width:468px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.orange-rect{
+    height: 200px;
+    width: 200px;
+    background: rgba(239, 241, 255, 1);
+    position: absolute;
+    top: -40px;
+    z-index: -1;
+    border-radius: 0px 0px 100px 0px;
+    left: -54px;
+
 }
 .paragraph-agency{
     margin-top: 30px;
     font-size: 16x;
-    font-family: Averta Demo PE Cutted Demo;
     line-height: 25.6px;
-    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width:532px;
+    color: rgba(86, 86, 86, 1);
 }
 .agency-content{
     padding-top: 87px;
@@ -492,14 +361,21 @@ flex:1
     position: relative;
     text-align: center;
 }
-.paragraph-agency{
-    width:532px;
-    color: rgba(86, 86, 86, 1);
-}
 .agency-image {
     width: 550px;
     height: 372px;
-    display: block;
+    position: relative;
+    z-index: 6;
+
+}
+.ellipse-div{
+    position: absolute;
+    width:130px;
+    height:130px;
+    color:rgba(255, 245, 219, 1);
+    right:0;
+    bottom: 0;
+    z-index: 0;
 }
 .play-icon{
     position: absolute;
@@ -507,10 +383,10 @@ flex:1
     left: 50%; 
     transform: translate(-50%, -50%); 
     z-index: 10; 
+    width:78px;
+    height:78px;
 }
-
-
-.fold-6{
+.fold-4{
    padding-top: 118px;
    align-items: center;
    margin: auto;
@@ -519,22 +395,25 @@ flex:1
 }
 .client-heading{
     font-size: 40px;
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight:400 ;
     line-height: 49.44px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 .client-paragraph{
     font-size: 18px;
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight:400 ;
     line-height: 28.8px;
     color: rgba(117, 117, 117, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
-.fold-7{
+.fold-5{
     display:flex;
     position:relative;
     padding-top: 108px;
     padding-left:120px;
+    padding-bottom: 50px;
 }
 
 .client1-image{
@@ -546,16 +425,15 @@ flex:1
 }
 .pink-ellipse{
     position:absolute;
-    bottom:0;
-    top:59%;
+    top: 64%;
     z-index: 1;
-    left:0;
+    left: 121px;
 }
 .dot{
     position: absolute;
-    z-index:1;
-    top:0;
-    right:43%;
+    z-index: 1;
+    top: 85px;
+    right: 66%
 }
 .client-description{
     flex:1;
@@ -564,20 +442,22 @@ flex:1
 
 .client-name{
     font-size: 24px;
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight:400 ;
     color: rgba(0, 0, 0, 1);
     line-height: 29.66px;
     align-items: center;
     padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 .client-details{
     font-size: 16px;
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight: 400;
     color: rgba(86, 86, 86, 1);
     width:412px;
     line-height: 25.6px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 .client-images{
     padding-left: 20px;
@@ -596,35 +476,141 @@ flex:1
     width:16px;
     height:16px;
 }
-.fold-8{
+.fold-6{
     display: flex;
-}
-.newsletter{
-    padding-left: 171px;
-}
-.newsletter-heading{
-    color: rgba(0, 0, 0, 1);
-    font-size:40px ;
-    font-weight: 400;
-    line-height: 49.44px;
-    font-family: Averta Demo PE Cutted Demo;
-    width:386px;
+    padding-left:120px;
+    padding-top: 150px;
+    align-items: center;
+    position:relative;
+
 
 }
 .newsletter-content{
+    margin-left: 88px;
+    display: flex;
+    flex-direction: column;
+}
+.newsletter-heading{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    width:386px;
+    font-size: 40px;
+    line-height: 49.44px;
+
+}
+.newsletter-description{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     color: rgba(117, 117, 117, 1);
-    font-size: 18px;
-    font-weight:400 ;
-    font-family: Averta Demo PE Cutted Demo;
     line-height: 28.8px;
-    width:588px;
+    font-size: 18px;
+
+}
+.contact-section{
+    
+    bottom: 50%;
+    /* right: 46%; */
+    display: flex;
+    /* padding-left: 50px; */
+    position: absolute;
+    left: 50%;
+    /* bottom: 50%; */
+    z-index: 7;
+    top: 153px;
+}
+.contact-div{
+    border: 1px;
+    height:80px;
+    border-radius: 60px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: rgba(241, 241, 241, 1);
+    width:479px;
+}
+.blue-bg-rect
+{
+    height: 294px;
+    width: 80%;
+    background: rgba(244, 249, 255, 1);
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    z-index: -1;
+    border-radius: 75px;
     
 }
-.fold-9{
+.email{
+    align-items: center;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 19.78px;
+    color: rgba(149, 149, 149, 1);
+    margin-top: 22px;
+    margin-left: 39px;
+}
+.button-email{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 80px;
+    display: inline;
+    margin-left: 50px;
+    height: 60px;
+}
+.blue-rect-img{
+    height: 292px;
+    position: absolute;
+    top: 9%;
+    right: 10%;
+    z-index: -1;
+    
+
+}
+.dot-ornament-last{
+    position: absolute;
+    z-index: -2;
+    right: 53px;
+    top: 6px;
+
+
+}
+.white-rect-img{
+    position: absolute;
+    height: 40%;
+    width: 479px;
+    background: rgba(255, 255, 255, 1);
+    border:1px solid rgba(241, 241, 241, 1);
+    top: 59%;
+    right: 17%;
+    z-index: 0;
+    border-radius: 60px;
+    box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
+    
+}
+.usp-contact-square{
+    position: absolute;
+    z-index: -2;
+    background-color: rgba(255, 245, 219, 1);
+    border-radius: 0px 0px 100px 0px;
+    top: 193px;
+    left: 110px;
+    width:180px;
+    height:180px;
+    rotate: 90deg;
+
+}
+.fold-7{
     align-items: center;
     justify-content: space-between;
     padding-left: 120px;
-    padding-top: 154px;
+    padding-top: 280px;
 }
 .studio-logo{
     margin-bottom: 30px;
@@ -635,78 +621,44 @@ flex:1
     color: rgba(86, 86, 86, 1);
     width:270px;
     line-height: 22.4px;
-    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.facebook-logo{
+    width:36px;
+    height: 36px;
+}
+.twitter-logo{
+    width:36px;
+    height: 36px;
+}
+.linkedin-logo{
+    width:36px;
+    height: 36px;
+}
+.studio-nav{
+    font-size: 20px;
     
-}
-.duties-nav{
-    font-size: 20px;
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight: 400;
     color: rgba(0, 0, 0, 1);
     border: 0.4px;
     line-height: 24.72px;
     margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
-.studio-duties{
+.studio-navigation{
     font-size: 14px;
-    font-family: Averta Demo PE Cutted Demo;
+    
     line-height: 28px;
     color: rgba(0, 0, 0, 1);
-    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 
 }
-.company-navigation{
-    font-size: 20px;
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 1);
-    border: 0.4px;
-    line-height: 24.72px;
-    margin-bottom: 50px;
-}
-.company-details{
-    font-size: 14px;
-    font-family: Averta Demo PE Cutted Demo;
-    line-height: 28px;
-    color: rgba(0, 0, 0, 1);
-    font-weight: 400;
-}
-.support-nav{
-    font-size: 20px;
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 1);
-    border: 0.4px;
-    line-height: 24.72px;
-    margin-bottom: 50px;
 
-}
-.support-navigation{
-    font-size: 14px;
-    font-family: Averta Demo PE Cutted Demo;
-    line-height: 28px;
-    color: rgba(0, 0, 0, 1);
-    font-weight: 400;
-
-}
-.contact-nav{
-    font-size: 20px;
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 1);
-    border: 0.4px;
-    line-height: 24.72px;
-    margin-bottom: 50px;
-
-}
-.contact-navigation{
-    font-size: 14px;
-    font-family: Averta Demo PE Cutted Demo;
-    line-height: 28px;
-    color: rgba(0, 0, 0, 1);
-    font-weight: 400;
-
-}
 .copyright-content{
     font-size: 14px;
     font-family: Averta Demo PE Cutted Demo;
@@ -740,21 +692,13 @@ flex:1
 .contact{
     margin-left: 80px;
     margin-right: 120px;
+    
 }
 .studio-socialmediaicons{
     letter-spacing: 16px;
     padding-top: 35px;
 }
-.button-email{
-    background-color: blue;
-    border: none;
-    color: white;
-    padding: 15px 65px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 80px;
-}
+
 .newsletter-email{
     display: flex;
     align-items: center;
@@ -768,33 +712,10 @@ flex:1
     margin-right: 10px;
     position: absolute;
     margin-top: 80px;
+}
 
-    
-    
 
-}
-.newsletter{
-    margin-right: 200px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.email-content{
-    margin-right: 55px;
-    color: rgba(149, 149, 149, 1);
-    font-size: 16px;
-    font-family: Averta Demo PE Cutted Demo;
-    font-weight: 400;
-    line-height: 19.78px;
-    margin-left: 11px;
-}
-.rectangle-images5{
-    width:520px;
-    padding-right: 120px;
-}
-.email-shapes{
-    margin-right: 120px;
-}
-.newsletter-contact{
-    padding-right: 120px;
-}
+
+
+
+
